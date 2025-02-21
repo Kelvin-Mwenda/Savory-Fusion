@@ -14,6 +14,7 @@ function HomePage() {
       {recipes.map(recipe => (
         <div key={recipe._id}>
           <h2>{recipe.title}</h2>
+          <p>{recipe.ingredients}</p>
           <p>{recipe.instructions}</p>
         </div>
       ))}
