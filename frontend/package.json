@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:css": "npx tailwindcss -i ./src/index.css -o ./dist/output.css",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -30,7 +31,7 @@
     "eslint-plugin-react-refresh": "^0.4.18",
     "globals": "^15.14.0",
     "postcss": "^8.5.3",
-    "tailwindcss": "^4.0.7",
+    "tailwindcss": "^4.0.8",
     "vite": "^6.1.1"
   }
 }
